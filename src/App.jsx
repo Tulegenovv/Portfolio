@@ -1,9 +1,8 @@
 import "./App.css";
 import Porfile from "./assets/1.avif";
-import Project1 from "./assets/project1.png";
-import Project2 from "./assets/project2.png";
-import Project3 from "./assets/project3.png";
-import Project4 from "./assets/project4.png";
+import Project1 from "./assets/p1.webp";
+import Project2 from "./assets/p2.jpg";
+import Project3 from "./assets/p3.jpg";
 import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
@@ -69,7 +68,7 @@ function App() {
               </div>
               <div>
                 <p className="mt-4 text-gray-400">
-                 Я студент Университета Нархоз, 3 курс backend developer.
+                I am a student at Narxoz University, a 3rd year student of the backend developer Program.
                 </p>
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download resume
@@ -78,7 +77,7 @@ function App() {
             </div>
             <div className="relative">
               <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
-                <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px]" />
+                <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px] rounded-full"  />
               </div>
             </div>
           </div>
@@ -91,7 +90,7 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Furniture store landing page
+                  Movies Project
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Responsive HTML/CSS layout for online furniture store. HTML5,
@@ -109,7 +108,7 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Designer furniture store landing page
+                  Online Shop
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Responsive HTML/CSS layout for online store of designer
@@ -144,24 +143,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Project4} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">
-                  Website redesign for The Venus project
-                </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
-                  (SCSS)
-                </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
-                  </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
-                  </button>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -219,7 +201,7 @@ function App() {
                   <h2 className="font-semibold">React Native</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[45%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[95%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
             </div>
           </div>
@@ -260,7 +242,7 @@ function App() {
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  B2 english
+                  B1 english
                 </p>
               </div>
               <div>
@@ -278,18 +260,14 @@ function App() {
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
                 <p>
-                  Graduated KTC (Krasnodar Technical College) and for about two
-                  years worked with high voltage (35, 110kV) substations as the
-                  specialty electrician of emergency mobile crew. Later
-                  qualified as a Crossfit trainer.
+                I am a 3rd year student at Narkhoz University, 
+                I have worked on many sites in Laravel,Java,Stack Mean,React
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
                 <p>
-                  Underwent a digital marketing course and started to work as a
-                  PPC and project manager in a local web studio. After 3 months
-                  started my own freelance practice.
+                I attended BITLAB courses. There I learned Laravel and Java languages.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
@@ -303,7 +281,7 @@ function App() {
                 <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
                 <p>
                   Worked out in which field I want to build a developer's career
-                  and started to learn Frontend Development.
+                  and started to learn backend Development.
                 </p>
               </div>
             </div>
