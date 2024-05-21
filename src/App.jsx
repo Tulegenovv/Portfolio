@@ -132,7 +132,7 @@ function App() {
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Responsive HTML/CSS layout for landing page for front-end
-                  developer. HTML5, CSS3 (SCSS)
+                  developer. React
                 </p>
                 <div className="flex gap-4 mt-12">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
@@ -157,14 +157,14 @@ function App() {
                   <h2 className="font-semibold">HTML</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[65%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[65%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -194,14 +194,14 @@ function App() {
                   <h2 className="font-semibold">React</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">React Native</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[95%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
             </div>
           </div>
@@ -258,27 +258,27 @@ function App() {
             <h2 className="text-2xl font-semibold">About me</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
                 I am a 3rd year student at Narkhoz University, 
                 I have worked on many sites in Laravel,Java,Stack Mean,React
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
                 I attended BITLAB courses. There I learned Laravel and Java languages.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
                   Became more interested in IT and decided to try programming.
                   Underwent Java course and made a project.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
                   Worked out in which field I want to build a developer's career
                   and started to learn backend Development.
@@ -291,7 +291,7 @@ function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2024</p>
           </div>
           <div>
             <ul className="flex gap-4">
